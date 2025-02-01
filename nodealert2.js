@@ -7,16 +7,16 @@ const twilio = require('twilio');
 const transporter = nodemailer.createTransport({
     service: 'gmail', // Change if using a different email service
     auth: {
-        user: 'mk458557@gmail.com', // Your admin email
-        pass: 'ylyb cuyt cqvd zfst' // Your email password or app-specific password
+        user: '', // Your admin email
+        pass: '' // Your email password or app-specific password
     }
 });
 
 // Twilio SMS Configuration
-const twilioClient = twilio('AC8d2f09b199b9ab2224cf3bd5d48c5cfc', 'c78db7e3d9729a45b8ff331855e67840');
+const twilioClient = twilio('createyourownsecretkey', 'createyourownsecretkey');
 
 // Watch Cowrie log file
-const logFilePath = 'C:\\Users\\manoj\\OneDrive\\Desktop\\final honeypot ver 33\\cowrie\\var\\log\\cowrie\\cowrie.json';
+const logFilePath = 'C:\\setyourpath\\cowrie\\var\\log\\cowrie\\cowrie.json';
 
 // Function to send SMS alert
 function sendSMSAlert(message) {
@@ -24,8 +24,8 @@ function sendSMSAlert(message) {
 
     twilioClient.messages.create({
         body: message,
-        from: '+12185208337', // Replace with your Twilio phone number
-        to: '+919176012603' // Replace with the recipient's phone number, including country code (+91 for India)
+        from: '', // Replace with your Twilio phone number
+        to: '' // Replace with the recipient's phone number, including country code (+91 for India)
     })
     .then((message) => {
         console.log(`SMS alert sent: ${message.sid}`);
@@ -41,7 +41,7 @@ function sendSMSAlert(message) {
 function sendEmailAlert(emailData) {
     const mailOptions = {
         from: '"Cowrie Honeypot" <admin_email@example.com>',
-        to: 'manojk82580@gmail.com', // Admin email address
+        to: '', // Admin email address
         subject: 'SSH Honeypot Alert: Unauthorized Access Attempt',
         html: `
             <html>
