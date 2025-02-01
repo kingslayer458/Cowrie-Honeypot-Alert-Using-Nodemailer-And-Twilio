@@ -6,13 +6,13 @@ const chokidar = require('chokidar');
 const transporter = nodemailer.createTransport({
     service: 'gmail', // Change if using a different email service
     auth: {
-        user: 'mk458557@gmail.com', // Your admin email
-        pass: 'ylyb cuyt cqvd zfst' // Your email password or app-specific password
+        user: '', // Your admin email
+        pass: '' // Your email password or app-specific password
     }
 });
 
 // Watch Cowrie log file
-const logFilePath = 'C:\\Users\\manoj\\OneDrive\\Desktop\\final honeypot ver 33\\cowrie\\var\\log\\cowrie\\cowrie.json';
+const logFilePath = 'C:\set your own path\\cowrie\\var\\log\\cowrie\\cowrie.json';
 
 // Function to send email
 function sendAlert(emailData) {
