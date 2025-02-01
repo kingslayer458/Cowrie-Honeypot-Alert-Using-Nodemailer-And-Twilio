@@ -1,6 +1,6 @@
 # Cowrie-Honeypot-Alert-Using-Nodemailer-And-Twilio
 
-## guide to set up this project will be available soon!!
+## Guide to set up this project will be available soon!!
 
 ---
 
