@@ -1,6 +1,5 @@
 # Cowrie-Honeypot-Alert-Using-Nodemailer-And-Twilio
 
-## Guide to set up this project will be available soon!!
 ---
 # 🛡️ Cowrie Honeypot Alert System
 
