@@ -70,7 +70,7 @@ const logFilePath = '/path/to/cowrie/log.json';
 ### 3️⃣ Run the Script
 Start the script with:
 ```sh
-node index.js
+node nodealert.js
 ```
 It will continuously watch the **Cowrie log file** and send alerts whenever unauthorized access is detected.
 
