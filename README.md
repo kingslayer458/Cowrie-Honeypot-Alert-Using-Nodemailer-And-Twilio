@@ -82,7 +82,7 @@ The email alert comes with a **well-structured HTML format** for easy readabilit
 ### 📧 Sample Email UI
 🔹 **Subject:** SSH Honeypot Alert: Unauthorized Access Attempt
 
-![Email UI](https://via.placeholder.com/600x300?text=Email+Alert+UI)
+![Email UI](eg1.png)
 
 🔹 **Email Body:**
 ```html
