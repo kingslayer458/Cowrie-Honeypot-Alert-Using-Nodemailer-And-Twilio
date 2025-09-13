@@ -79,7 +79,7 @@ It will continuously watch the **Cowrie log file** and send alerts whenever unau
 ## 📩 Email Alert UI
 The email alert comes with a **well-structured HTML format** for easy readability.
 
-### 📧 Sample Email UI
+### 📧Sample Email UI
 🔹 **Subject:** SSH Honeypot Alert: Unauthorized Access Attempt
 
 ![Email UI](eg1.png)
