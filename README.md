@@ -120,7 +120,7 @@ This script is for **security monitoring only**. Ensure you have the **necessary
 
 ```md
 
-# 🚀 Running `nodealert3.js` with PM2
+# Running `nodealert3.js` with PM2
 
 PM2 is a process manager for Node.js applications that allows you to keep your script running in the background, restart it automatically on failures, and manage logs efficiently.
 
